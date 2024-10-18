@@ -1,5 +1,5 @@
 # StrainGE
-This Python script facilitates the pairwise comparison of genomic strains using the straingr tool. It automates the process of comparing samples from different strains, consolidating the results into summary and detailed reports for each strain. The script identifies input files based on sample names and performs comparisons between all combinations of samples within each strain group.
+This Python script facilitates the pairwise comparison of genomic strains using the straingr tool. It automates the process of comparing samples from different strains, consolidating the results into summary and detailed reports for each strain. The script identifies input files based on sample names and performs comparisons between all combinations of samples within each strain group. Please reference to strainGE documentation for full analysis: https://strainge.readthedocs.io/en/latest/index.html#
 
 **Features**
 Automated Strain Comparison: Finds corresponding HDF5 files for samples and runs pairwise comparisons between samples of the same reference strain.
