@@ -18,11 +18,5 @@ strainge installed and available in the system path. This script assumes you hav
 CSV file format: Must contain columns for "strain" and "filename". "filename" are the input sample names. "strain" are the references identified by straingst in each sample.
 The value in "filename" must match that of the sample_variants.hdf5 input file. 
 For example, value of DVT1015 in "filename" will pull the DVT1015_variant.hdf5 file from input directory containing all the HDF5 files 
-Below is an example input .csv file. This input will perform a pairwise comparison of DVT984,DVT1078,DVT1073 since they show presence of the same reference strain GCA_016533775. 
-DVT1014 would not be included in the pairwsie comparison since it has a different reference strain, GCA_016533776. 
-filename	strain
-DVT984	GCA_016533775
-DVT1078	GCA_016533775
-DVT1073	GCA_016533775
-DVT1014	GCA_016533776
+
 
